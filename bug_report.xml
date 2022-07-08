@@ -2,24 +2,24 @@
   <header> Поле "Комментарий" принимает только 14 символов после отправки отзыва </header>
 
     <description> Описание 
-      <1> Перейти на https://response-form.herokuapp.com/ </1> 
-      <2> В поле "Имя" ввести имя, например: Мария </2>
-      <3> В поле "Дата" ввести дату, например: 11.03.2022 </3>
-      <4> Поставить рейтинг, например: 5 звёзд </4>
-      <5> В поле "Комментарий" написать комментарий более чем на 15 символов, например "Понравился чай с бергамотом" </5>
-      <6> Нажать кнопку "Отправить отзыв" <6>
+      1. Перейти на https://response-form.herokuapp.com/;
+      2. В поле "Имя" ввести имя, например: Мария;
+      3. В поле "Дата" ввести дату, например: 11.03.2022;
+      4. Поставить рейтинг, например: 5 звёзд;
+      5. В поле "Комментарий" написать комментарий более чем на 15 символов, например "Понравился чай с бергамотом";
+      6. Нажать кнопку "Отправить отзыв"
     </description>
 
-        <actual result>Поле "Комментарий" не принимает более 15 символов</actual result>
-        <expected result>Поле "Комментарий" принимает более 15 символов</expected result>
+        <actual_result>Поле "Комментарий" не принимает более 15 символов</actual_result>
+        <expected_result>Поле "Комментарий" принимает более 15 символов</expected_result>
 
   <environment>
-    <Windows 10><version = "20H2"><assembly = "19042.1466"></assembly></version></Windows 10>
-      <browser version = "99.0.4844.51">Chrome</browser>
-        <size = "1920х1080">Screen</size>
+    <Windows_10><version:20H2><assembly:19042.1466></assembly:19042.1466></version:20H2></Windows_10>
+      <browser_version:99.0.4844.51>Chrome</browser_version:99.0.4844.51>
+        <size:1920x1080>Screen</size:1920x1080>
   </environment>
 
-  <severity = "S2">critical</severity = "S2">
+  <severity:S2>critical</severity:S2>
   <priority>high</priority>
 
   <author>Mariya Gribanova</author>
